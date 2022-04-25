@@ -1,0 +1,22 @@
+{
+    "oauthScopes": [
+      "https://www.googleapis.com/auth/gmail.addons.execute", 
+      "https://www.googleapis.com/auth/gmail.readonly", 
+      "https://www.googleapis.com/auth/script.external_request"
+    ],
+    "gmail": {
+      "name": "PMT Sales Sidebar",
+      "logoUrl": "https://apps.pacificmedicaltraining.com/gmail-addon/pmt-logo.png",
+      "contextualTriggers": [{
+        "unconditional": {
+        },
+        "onTriggerFunction": "buildCards"
+      }],
+      "openLinkUrlPrefixes": [
+        "https://mail.google.com/"
+      ],
+      "primaryColor": "#4285F4",
+      "secondaryColor": "#4285F4",
+      "version": "TRUSTED_TESTER_V2"
+    }
+  }
