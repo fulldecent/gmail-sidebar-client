@@ -51,3 +51,7 @@ Before you start, you must have a working Gmail account (personal or business). 
    2. Click SHOW SIDE PANEL (button on bottom-right).
    3. Click your application (red icon, if you did not change it).
    4. Click AUTHORIZE ACCESS (when I tried this, the page froze and I needed to reload and try again).
+
+## Next steps
+
+Stay tuned, we also have a server to open source which helps you easily create the required .js responses on your web server that are used above. (Lke the get-sidebar.js example above.)
